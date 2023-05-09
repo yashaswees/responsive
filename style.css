@@ -531,8 +531,8 @@ form.emailBar input[type=text] {
 .last{
     margin-top: 0px;
 }
-.ham{
-    display:none;
+.hamburger-icon{
+    display: none;
 }
 }
 
@@ -684,8 +684,8 @@ form.emailBar input[type=text] {
 .footer-container{
     height:440px;
 }
-.ham{
-    display:none;
+.hamburger-icon{
+    display: none;
 }
 }
 /* 480 PX */
@@ -856,13 +856,11 @@ hr{
 .links3{
     width:100px;
 }
-.ham{
+.hamburger-icon{
     display: block;
 }
 }
 
 @media(max-width:1200px){
-    .ham{
-        display: none;
-    }
+ 
 }
