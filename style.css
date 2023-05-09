@@ -862,5 +862,7 @@ hr{
 }
 
 @media(max-width:1200px){
- 
+    .hamburger-icon{
+        display: none;
+    }
 }
