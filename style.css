@@ -857,11 +857,11 @@ hr{
     width:100px;
 }
 .hamburger-icon{
-    display: block;
+    display: block; !important
 }
 }
 
-@media(max-width:1200px){
+@media(min-width:991px){
     .hamburger-icon{
         display: none;
     }
