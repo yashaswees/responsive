@@ -1,0 +1,868 @@
+*{
+    font-family: 'Avenir' ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 680px;
+}
+ .bg_img{
+    background: url("images/Rectangle 1.svg") no-repeat;
+    background-size: cover;
+}
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      margin-left:105px;
+      margin-right: 102px;
+}
+.ham {
+    width: 35px;
+    height: 5px;
+    background-color: #021e57;
+    margin: 6px 0;
+    border-color:#021e57;
+    border-radius:5px;
+  }
+  .hamburger-icon {
+    display: inline-block;
+    padding: 4px;
+    cursor: pointer;
+    background-color:#043CAA;
+    border-radius: 10px;
+    border-color:transparent;
+  }
+  .icon-bar {
+    border-radius: 10px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+  }
+nav{
+    padding-top: 37px;
+    height: 79px;
+}
+
+.menu ul{
+    width: 500px;
+}
+
+.menu li {
+    color: white;
+    list-style: none;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+    max-width: 520px;
+    color:white;
+}
+
+.headerRight{
+    display: flex;
+    align-self: flex-end;
+}
+.headPara{
+    margin-top: 20px;
+}
+.logIn{
+    background-color: #1BC768;
+    color:white;
+    border-radius: 50px;
+    padding: 10px 38px;
+    border-style: none;
+}
+.buttonBar .b1{
+    background-color: #043CAA;
+    color:white;
+    border-color: white;
+    margin: 0 11px;
+    border-width: 1px;
+    height: 45px;
+    width: 86px;
+    border-radius: 50px;
+    margin-top: 44px;
+}
+.b1:hover{
+    background-color:white;
+    color:#043CAA;
+}
+.logo{
+    color:white;
+    font-weight: 900;
+  
+}
+.searchBar{
+    display: flex;
+    height: 48px;
+    width: 488px;
+    margin-top: 52px;
+    border-radius: 50px 0 0 50px;
+    align-items: center;
+    font-size: 14px;
+    border-left-color: transparent;
+}
+ input[type=text] {
+    padding: 10px;
+    border-width: 0px;
+    width: 488px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.submit {
+    width: 127px;
+    padding: 10px;
+    color: #7A7A7A;
+    height: 43px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 0px 50px 50px 0px;
+    color:white;
+    background-color: #1BC768;
+  }
+.man{
+    height: 500px;
+    width: 483px;
+}
+.fa{
+    background-color: white;
+    color:#7A7A7A;
+    border: none;
+    padding-top: 10px;
+    height: 42px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 15px;
+}
+.hrl{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.my-hr{
+    width: 91px;
+    border-radius:50px 0px 0px  50px;
+    color:#043CAA;
+    border: 5px solid #043CAA; 
+
+}
+.my-hr1{
+    width:91px;
+    border-radius: 0px 50px 50px 0px;
+    border: 5px solid #1BC768;
+}
+.affiliations{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    font-weight: 900;
+    color:#043CAA;
+    font-size: 36px;
+}
+.logos{
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+    width: 564px;
+    margin-left:334px;
+}
+.benefits{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color:#043CAA;
+    font-size: 36px;
+    margin-top: 113px;
+}
+.leftContent1{
+    margin-top: 151px;
+    padding-left: 211px;
+    width: 550px;
+}
+.subtitle{
+    color: #043CAA;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    width: 242px;
+}
+.leftContent1 ul {
+    margin-top: 40px;
+}
+.leftContent1 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.content1{
+    display: flex;
+}
+.rightContent1{
+    margin-left: 139px;
+    width:511px;
+    height:518px;
+}
+.b12{
+    border-radius: 50px;
+    border-color: #1BC768;
+    color:#1BC768;
+    background-color: white;
+    height: 47px;
+    width: 238px;
+    padding: 11px 35px 11px 35px;
+    border-width: 1px;
+    font-size: 18px;
+}
+.b12:hover{
+    background-color: #1BC768;
+    color:white;
+}
+.content2{
+    display: flex;
+}
+.leftContent2{
+    margin-left:240px;
+    height: 409.3666687011719px;
+    width: 474.8341064453125px;
+    margin-top:70px ;
+}
+.rightContent2{
+    margin-left: 159px;
+    margin-top: 148px;
+}
+.rightContent2 ul {
+    margin-top: 40px;
+}
+.rightContent2 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.content3{
+    display: flex;
+}
+.leftContent3{
+    margin-top: 211px;
+    padding-left: 211px;
+}
+.leftContent3 ul {
+    margin-top: 40px;
+}
+.leftContent3 ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.rightContent3{
+    margin-left: 118px;
+    margin-top: 70px;
+    width: 511px;
+    height:518px;
+}
+.medicine{
+    display: flex;
+    margin-top: 94px;
+}
+.medicineLeft{
+    height: 466px;
+    width: 648px;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    margin-left: 187px;
+}
+.hr{
+    margin-left: 119px;
+}
+.medText{
+    margin-top: 48px;
+    margin-left: 187px;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.medName{
+    margin-top: 18px;
+    color:#043CAA;
+}
+.footer-container{
+    color:white;
+    background-color: #043CAA;
+    height: 548px;
+    margin-top: 138px;
+}
+.upperFooter{
+    display: flex;
+}
+.signUp{
+    margin-left:173px;
+    margin-top:90px;
+}
+.signUp-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.signUp-content{
+    margin-top: 18px;
+    width:404px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.subscribe{
+    margin-top: 96px;
+    margin-left: 143px;
+}
+.emailBar{
+    display: flex;
+}
+form.emailBar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    height:50px;
+    width: 333px;
+    padding-left: 26px;
+    border-radius: 50px 0px 0px 50px ;
+    margin-top: 13px;
+}
+.sub{
+    margin-top: 13px;
+    border: none;
+    background-color: #1BC768;
+    color:white;
+    height: 50px;
+    width: 127px;
+    border-radius: 0px 50px 50px 0px;
+}
+.dExpress{
+    margin-left: 173px;
+    margin-top: 106px;
+}
+.topic{
+    font-size:24px;
+    font-weight:900;
+}
+.info{
+    width:211px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.lowerFooter{
+    display: flex;
+}
+.links{
+    display: flex; 
+}
+.links ul {
+    list-style: none;
+}
+.links1{
+    margin-left: 209px;
+    margin-top:117px ;
+    line-height: 21px;
+}
+.links ul li{
+    margin-bottom: 21px;;
+}
+.links2{
+    margin-left: 91px;
+    margin-top:117px ;
+}
+.links3{
+    margin-left: 131px;
+    margin-top:117px ;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;    
+}
+@media(max-width:991px)
+{
+    .logo{
+        flex-shrink: 0;
+    }
+    .headerLeft{
+        margin-top:50px;
+        padding-bottom: 20px;
+    }
+    .headerRight{
+        margin-left: 100px;
+    }
+    .man{
+        height:300px;
+        width: 300px; 
+    }
+    .searchBar{
+        margin-top: 15px;
+    }
+.menu{
+    display: inline;
+}
+.header{
+    margin: 0 80px;
+}
+  .logIn{
+    padding:10px 25px;
+  }
+.buttonBar .b1{
+    margin-top: 15px;
+}
+.container{
+    display: inline;
+}
+.affiliations{
+    margin-top: 40px;
+    font-size:29px;
+}
+
+.my-hr{
+    width:50px;    
+    background-color:#1BC768;
+    border: 3px solid #1BC768;
+}
+.my-hr1{
+    width:50px;
+    background-color: #043CAA;
+    border: 3px solid #043CAA
+}
+.logos{
+margin-left:170px;
+}
+.benefits{
+    font-size:29px;
+    margin-top:40px
+}
+.leftContent1{
+    padding-left: 150px ;
+    margin-top:100px;
+}
+.rightContent1{
+    margin-left:70px;
+}
+
+.leftContent2{
+    margin-left: 100px ;
+    margin-top:50px;
+}
+.rightContent2{
+    margin-left:100px;
+    margin-top:50px;
+}
+.leftContent3{
+    padding-left: 150px ;
+    margin-top:100px;
+}
+.leftContent3 ul{
+    width:315px;
+}
+.rightContent3{
+    margin-left:0px;
+    margin-top:50px;
+}
+.medicine{
+    margin-top: 20px;
+}
+.medImg{
+    height:366px;
+    width:500px;
+}
+
+.medicineLeft{
+    width:500px;
+}
+.title2{
+    margin-left:130px;
+    font-size: 30px;
+}
+.hr{
+    margin-left:70px;
+}
+.medText{
+    margin-left: 99px;
+}
+.footer-container{
+    height:470px;
+    margin-top: 30px;
+}
+.signUp{
+    margin-left: 65px;
+}
+form.emailBar input[type=text] {
+    padding: 6px;
+    font-size: 15px;
+    width: 233px;
+    padding-left: 26px;
+}
+.emailBar{
+    display:flex;
+}
+.bar{
+    display:flex;
+}
+.dExpress{
+    margin-left: 65px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.info{
+    font-size: 17px;
+}
+.links1{
+    margin-left:109px;
+    line-height: 11px;
+    margin-top: 70px;
+}
+.links2{
+    line-height: 11px;
+    margin-top: 70px;
+}
+.links3{
+    line-height: 11px;
+    margin-top: 70px;
+}
+.last{
+    margin-top: 0px;
+}
+.ham{
+    display:none;
+}
+}
+
+
+/* 768PX */
+@media(max-width:768px){
+.flexBox{
+margin-left: 58px;
+}
+.headerRight{
+    margin-left: 10px;
+}
+.menu ul{
+    width: 381px;
+}
+.menu ul li{
+    width: 130px;
+    font-size: 13px;
+}
+.flexBox ul{
+    margin-left:50px;
+}
+.head1{
+    font-size:15px;
+    width:400px;
+}
+.headPara{
+    width:300px;
+    font-size: 13px;
+}
+.buttonBar{
+    width:400px;
+}
+.buttonBar .b1{
+    margin:0;
+    margin-top:15px;
+    margin-right: 10px;
+    width: 70px;
+    height:35px;
+}
+.searchBar{
+    width:350px;
+}
+.submit{
+    width:200px;
+}
+.man{
+    height:250px;
+    width:250px;
+}
+.fa{
+    padding-top: 15px;
+}
+.logos{
+    margin-left:100px;
+}
+.leftContent1{
+    padding-left:70px;
+}
+.rightContent1{
+    margin-left: 0px;
+}
+.benefit1{
+   width:400px;
+    margin-left:0px;
+}
+.leftContent2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.benefit2{
+    width:350px;
+}
+.rightContent2{
+    margin-left:0px ;
+    margin-top:10px;
+}
+.content3{
+    height:400px;
+}
+.leftContent3{
+    padding-left:70px;
+    margin-top: 11px;
+    height:300px;
+}
+.rightContent3{
+    margin-left:0px;
+    margin-top:0px
+}
+.benefit3{
+    width:350px;
+}
+.medicineLeft{
+    height:350px;
+}
+.medImg{
+    width:400px;
+    height:280px
+}
+.title2{
+    font-size:30px;
+    margin-left:40px;
+}
+.hr{
+    margin-left:30px
+}
+.medText{
+    margin-left:50px;
+}
+.signUp-content{
+width:300px;
+}
+.subscribe{
+    margin-left: 30px;
+}
+form.emailBar input[type=text] {
+    height:40px;
+    width: 233px;
+}
+.sub{
+    height: 40px;
+    width: 127px;
+    border-radius: 0px 50px 50px 0px;
+}
+.info{
+    font-size:14px;
+}
+.links{
+    margin-left:50px;
+}
+.links1{
+    font-size: 14px;
+    line-height: 5px;
+    margin-left:50px;
+    margin-top: 85px;
+}
+.links2{
+    font-size: 14px;
+    line-height: 5px;
+    margin-left:50px;
+    margin-top: 85px;
+}
+.links3{
+    font-size: 14px;
+    line-height: 5px;
+    margin-left: 50px;
+    margin-top: 85px;
+}
+.footer-container{
+    height:440px;
+}
+.ham{
+    display:none;
+}
+}
+/* 480 PX */
+@media(max-width:480px)
+{
+    .logo{
+        font-size:large;
+        margin-left: 150px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .flexBox{
+        margin-left: 20px;
+    }
+    .head1{
+        width:250px;
+    }
+    .head1{
+        font-size:12px;
+    }
+    .logIn{
+        margin-left:100px;
+    }
+    .logos{
+        margin-left:10px;
+        width:400px;
+    }
+   
+    .headPara{
+        display:none;
+    }
+    .buttonBar{
+        width:270px;
+    }
+    .buttonBar .b1{
+        margin-top:15px;
+        margin-right: 10px;
+        width: 50px;
+        height:30px;
+    }
+    .headerLeft{
+        margin-top: 30px;
+    }
+    .headerRight{
+        display: none;
+    }
+    .searchBar{
+        width:300px;
+    }
+    .submit{
+        width:178px;
+    }
+.leftContent1{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.subtitle{
+    font-size:larger;   
+    width:170px;
+}
+.leftContent1 ul{
+    display:none;
+}
+.benefit1{
+    width:215px;
+    margin-top:20px;
+}
+.b12{
+    padding:8px;
+    width:185px;
+    font-size:15px;
+    margin-top:15px;
+}
+.content1{
+    height:250px;
+}
+.benefit2{
+    width:180px;
+    margin-top:20px;
+}
+.leftContent2{
+    display:inline;
+    margin-left:30px;
+    margin-top:10px
+}
+.rightContent2 ul {
+    display:none;
+}
+.rightContent2{
+    margin-top:40px;
+    width:400px;
+}
+.rightContent3{
+    margin-left:40px;
+}
+.content2{
+    height:250px;
+}
+.leftContent3 ul{
+    display: none;
+}
+.benefit3{
+    width:215px;
+}
+.content3{
+    height:250px;
+}
+.leftContent3{
+    padding-left:30px;
+    margin-top: 40px;
+}
+.medicine{
+    height:250px;
+}
+.medImg{
+    width:240px;
+    height:180px;
+}
+.title2{
+    font-size:large;
+    height:40px;
+    margin-left:20px;
+}
+.hrl{
+    margin-left:10px;
+}
+hr{
+    margin-top:2px;
+}
+.medText{
+    font-size: small;
+    line-height: 16px;
+    margin-top: 30px;
+    margin-left:20px
+}
+.signUp-title{
+    font-size: large;
+}
+.signUp{
+    margin-left:30px;
+    margin-top:50px;
+}
+.signUp-content{
+    display:none;
+}
+.subscribe{
+    margin-top:20px;
+    margin-left:30px;
+}
+.upperFooter{
+    flex-direction: column;
+}
+.dExpress{
+    display:none;
+}
+.links{
+    margin-left:20px;
+    margin-bottom:23px;
+}
+.links1{
+    width:100px;
+}
+.links2{
+    width:120px;
+}
+.links3{
+    width:100px;
+}
+.ham{
+    display: block;
+}
+}
+
+@media(max-width:1200px){
+    .ham{
+        display: none;
+    }
+}
