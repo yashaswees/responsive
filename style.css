@@ -384,6 +384,17 @@ form.emailBar input[type=text] {
     justify-content: center;
     margin-top: 45px;    
 }
+@media(max-width:1200px)
+{
+    .medText{
+        width:300px;
+        margin-left: 150px;
+    }
+    .title2{
+        margin-left: 100px;
+    }
+
+}
 @media(max-width:991px)
 {
     .logo{
@@ -802,6 +813,9 @@ form.emailBar input[type=text] {
 .medicine{
     height:250px;
 }
+.medicineLeft{
+    width:250px;
+}
 .medImg{
     width:240px;
     height:180px;
@@ -809,7 +823,7 @@ form.emailBar input[type=text] {
 .title2{
     font-size:large;
     height:40px;
-    margin-left:20px;
+    margin-left:30px;
 }
 .hrl{
     margin-left:10px;
@@ -821,7 +835,8 @@ hr{
     font-size: small;
     line-height: 16px;
     margin-top: 30px;
-    margin-left:20px
+    margin-left:40px;
+    width:150px;
 }
 .signUp-title{
     font-size: large;
@@ -866,14 +881,4 @@ hr{
         display: none;
     }
 }
-@media(max-width:1200px)
-{
-    .medText{
-        width:300px;
-        margin-left: 150px;
-    }
-    .title2{
-        margin-left: 100px;
-    }
 
-}
