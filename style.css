@@ -866,3 +866,14 @@ hr{
         display: none;
     }
 }
+@media(max-width:1200px)
+{
+    .medText{
+        width:300px;
+        margin-left: 150px;
+    }
+    .title2{
+        margin-left: 100px;
+    }
+
+}
